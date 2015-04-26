@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+set -e
+if [ -e ~/.vimrc ]
+then
+mv ~/.vimrc ~/.vimrc.before-andy
+fi
+ln -s ~/.vim/.vimrc ~/.vimrc
+
