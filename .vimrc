@@ -10,6 +10,7 @@ let mapleader = ' '
 
 " Global Bindings
 nmap <leader>E :Explore<CR>
+nmap tt :NERDTreeToggle<CR>
 
 " Vim-Go
 let g:go_fmt_command = "goimports"
@@ -37,3 +38,4 @@ au FileType go nmap <Leader>gi <Plug>(go-info)
 
 au FileType go nmap <Leader>gn <Plug>(go-rename)
 
+colorscheme darcula
