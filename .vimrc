@@ -4,6 +4,8 @@ filetype plugin indent on
 runtime macros/matchit.vim
 set sw=2 ts=4 sts=4
 set number
+set completeopt=menu
+
 " function! FormatJSON() :%!python -m json.tool endfunction
 nmap =j :%!python -m json.tool<CR>
 " gitcommit setlocal textwidth=0
@@ -11,6 +13,7 @@ let mapleader = ' '
 
 " Global Bindings
 nmap <leader>E :Explore<CR>
+nmap tt :NERDTreeToggle<CR>
 
 " Vim-Go
 let g:go_fmt_command = "goimports"
@@ -38,3 +41,4 @@ au FileType go nmap <Leader>gi <Plug>(go-info)
 
 au FileType go nmap <Leader>gn <Plug>(go-rename)
 
+colorscheme darcula
