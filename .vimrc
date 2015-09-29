@@ -13,6 +13,9 @@ let mapleader = ' '
 " Global Bindings
 nmap <leader>E :Explore<CR>
 nmap tt :NERDTreeToggle<CR>
+nmap t% :NERDTree %<CR>
+nmap tc :NERDTreeClose<CR>
+nmap <D-¬> mlgg=G`l
 
 " Vim-Go
 let g:go_fmt_command = "goimports"
