@@ -1,6 +1,7 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+runtime macros/matchit.vim
 set sw=2 ts=4 sts=4
 set number
 set completeopt=menu
