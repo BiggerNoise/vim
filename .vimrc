@@ -17,6 +17,7 @@ nmap tt :NERDTreeToggle<CR>
 nmap t% :NERDTree %<CR>
 nmap tc :NERDTreeClose<CR>
 nmap <D-¬> mlgg=G`l
+nmap <D-/> :Commentary<CR> j
 
 " Vim-Go
 let g:go_fmt_command = "goimports"
