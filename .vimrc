@@ -45,4 +45,8 @@ au FileType go nmap <Leader>gi <Plug>(go-info)
 
 au FileType go nmap <Leader>gn <Plug>(go-rename)
 
+" Vim Markdown Preview
+let vim_markdown_preview_hotkey='<leader>p'
+let vim_markdown_preview_github=1
+
 colorscheme darcula
