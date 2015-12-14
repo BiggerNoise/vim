@@ -49,4 +49,12 @@ au FileType go nmap <Leader>gn <Plug>(go-rename)
 let vim_markdown_preview_hotkey='<leader>p'
 let vim_markdown_preview_github=1
 
+" Ruby stuff
+au FileType ruby setlocal expandtab
+au FileType ruby setlocal sw=2 ts=2 sts=2
+
+"Javascript
+au FileType javascript setlocal expandtab
+au FileType javascript setlocal sw=4 ts=4 sts=4
+
 colorscheme darcula
